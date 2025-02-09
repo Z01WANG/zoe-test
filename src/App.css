@@ -1,0 +1,15 @@
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+.newBtn {
+  border: 2px solid #eccf2a;
+  background: #eccf2a;
+  color: blue;
+  padding: 4px;
+  margin: 0 4px;
+}
