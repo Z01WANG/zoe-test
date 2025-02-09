@@ -55,7 +55,7 @@ function App() {
 
   // 刪除 Todo
   const deleteTodo = (index) => {
-    const newTodos = todos.filter((_, i) => i !== index);
+    const newTodos = todos.filter((todo, i) => i !== index);
     setTodos(newTodos);
     localStorage.setItem("todos", JSON.stringify(newTodos));
   };
